@@ -1,21 +1,51 @@
-# 프로젝트 그거 어떻게 하는데?!! 
+# 프로젝트 그거 어떻게 하는데?!!
 
 - 부제 | IT 초보자들을 위한 프로젝트의 모든 것
 - 집필 기간 | 2024.01.14~2024.03.23
 
 ## 목차
 
-### 1. 서론 → 서론: 프로젝트 왜 하는데?
-### 2. 프로젝트 착수 → 착수: 프로젝트 어떻게 하는건데??
-### 3. 설계 → 설계: 프로젝트 바로 시작하면 안돼?
-### 4. 구현 → 구현: 뭐하면 되는데?
-### 5. 검수 → 검수: 어 이게 왜 안되지?
-### 6. 종료 → 종료: 드디어 완성! 이제 끝인가?
-### 7. 인터뷰 → 마치며… 
+
+```
+ialwayshaveaplan
+├─ 00 머리말
+│  └─ 머리말.md
+├─ 01 서론: 프로젝트 왜 하는데?
+│  ├─ 01.1 프로젝트를 하는 이유.md
+│  └─ 01.2 IT 프로젝트 방법론 소개.md
+├─ 02 착수: 프로젝트 어떻게 하는건데??
+│  ├─ 02.1 문제에 대해 정의하기.md
+│  ├─ 02.3 목표 설정.md
+│  └─ 제목.md
+├─ 03 설계: 프로젝트 바로 시작하면 안돼?
+│  ├─ 03.1 ~ 03.3 (개요, 정보설계, 화면설계).md
+│  ├─ 03.4 데이터베이스설계.md
+│  └─ 제목.md
+├─ 04 구현: 뭐하면 되는데?
+│  ├─ 04 구현.md
+│  ├─ 04.1 프로젝트 초기 세팅 및 가이드라인.md
+│  ├─ 04.2 이해관계자간 커뮤니케이션.md
+│  └─ images
+│     └─ image.png
+├─ 05 검수: 어 이게 왜 안되지?
+│  ├─ 05.1 단위테스트, 통합테스트 진행(디버깅).md
+│  ├─ 05.2 사용자 피드백.md
+│  ├─ 05.3 디버깅 및 오류 수정.md
+│  ├─ testcase.drawio
+│  └─ 제목,md
+├─ 06 종료: 드디어 완성! 이제 끝인가?
+│  ├─ 06.2 코드 및 시스템 최적화 방법.md
+│  ├─ 06.3 프로젝트 관련 문서 정리 및 보존.md
+│  ├─ 06.4 프로젝트 품질 관리 방법.md
+│  └─ 06.5 고도화 전략.md
+├─ README.md
+```
+
 
 ---
 
 ## 작업 과정
+
 1. `write`브랜치로 이동
 2. 내용 수정 후 커밋하기
 3. 피드백이 필요한 내용에 대해서 이슈 생성하기
@@ -24,9 +54,9 @@
 6. 일요일 회의 때 `main`브랜치에 백업하기
 
 ### 브랜치 규칙
+
 - 브랜치명: `main` - `write`
 - `main`에 바로 push 금지
-
 
 ### 커밋 컨벤션
 
@@ -40,23 +70,24 @@ FIX - 오탈자 수정
 
 DELETE - 삭제한 내용
 
-
 ### 디렉토리 규칙
 
 `{{순서}} {{제목}}` / [세부제목.md](http://xn--w52bz5cu7dw7i.md/)
 
 `{{순서}} {{제목}}` / `images` / `{{순서}} {{넘버링}} {{이미지 이름}}`.png
 
-
 ## 📌 팀원 소개
 
-|김동석|김예지|김창환|이지현|윤주원|엄영철|정진영|
-|:------:|:---:|:---:|:---:|:---:|:---:|:---:|
-|<img src="https://avatars.githubusercontent.com/u/60871856?v=4" width="200" height="200">|<img src="https://avatars.githubusercontent.com/u/116805856?v=4" width="200" height="200">|<img src="https://avatars.githubusercontent.com/u/138690980?v=4" width="200" height="200">|<img src="https://avatars.githubusercontent.com/u/111721483?v=4" width="200" height="200">|<img src="https://avatars.githubusercontent.com/u/118035287?v=4" width="200" height="200">|<img src="https://avatars.githubusercontent.com/u/52156476?v=4" width="200" height="200">|<img src="https://avatars.githubusercontent.com/u/145651124?v=4" width="200" height="200">|
-|<a href="https://github.com/bldongdong"> 🌱 dongdong|<a href="https://github.com/yejify"> 🌱 yeji_kim|<a href="https://github.com/Blood-donation-day"> 🌱 KIMCHANGHWAN|<a href="https://github.com/Sleepingoff"> 🌱 JiHyeon Lee|<a href="https://github.com/YoonJoowon"> 🌱 윤주원|<a href="https://github.com/Um-king"> 🌱 Um-king|<a href="https://github.com/najasinis"> 🌱 najasinis|
+|                                          김동석                                           |                                           김예지                                           |                                           김창환                                           |                                           이지현                                           |                                           윤주원                                           |                                          엄영철                                           |                                           정진영                                           |
+| :---------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------: |
+| <img src="https://avatars.githubusercontent.com/u/60871856?v=4" width="200" height="200"> | <img src="https://avatars.githubusercontent.com/u/116805856?v=4" width="200" height="200"> | <img src="https://avatars.githubusercontent.com/u/138690980?v=4" width="200" height="200"> | <img src="https://avatars.githubusercontent.com/u/111721483?v=4" width="200" height="200"> | <img src="https://avatars.githubusercontent.com/u/118035287?v=4" width="200" height="200"> | <img src="https://avatars.githubusercontent.com/u/52156476?v=4" width="200" height="200"> | <img src="https://avatars.githubusercontent.com/u/145651124?v=4" width="200" height="200"> |
+|                   <a href="https://github.com/bldongdong"> 🌱 dongdong                    |                      <a href="https://github.com/yejify"> 🌱 yeji_kim                      |              <a href="https://github.com/Blood-donation-day"> 🌱 KIMCHANGHWAN              |                  <a href="https://github.com/Sleepingoff"> 🌱 JiHyeon Lee                  |                     <a href="https://github.com/YoonJoowon"> 🌱 윤주원                     |                     <a href="https://github.com/Um-king"> 🌱 Um-king                      |                    <a href="https://github.com/najasinis"> 🌱 najasinis                    |
 
 ## 추가할 내용
+
 - [ ] 노션 최종 페이지 링크
 - [ ] 리디북스 페이지 링크
 - [ ] 각 목차에 대한 파일 링크 연결
 - [ ] 새로운 인원 팀원 소개에 추가
+
+
