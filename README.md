@@ -8,7 +8,13 @@
 > 
 > 이 책으로 프로젝트에 대한 경험이 적은 이들을 위해 프로젝트를 어떻게 시작을 할 수 있는 지부터 협업에 대한 효율적인 부분까지, 프로젝트를 효과적으로 진행하는 데에 도움을 주고 싶었습니다. 저희 공동 집필자 9명은 많은 IT 프로젝트 경험이 있으며, 취업준비생, 인턴, 현직 개발자 등 다양한 배경과 경력을 지니고 있습니다. 그렇기 때문에 여러분이 하고자하는 개발 프로젝트를 다양한 시각에서 조언하고, 가이드할 수 있을 것입니다. 본 책은 기초적인 지식 없이 시작하는 초보자들을 위한 안내서로서, IT 프로젝트를 진행하면서 겪을 모든 단계들과 핵심 과정을 자세히 다룰 것입니다. 본 책은 실제 개발자 혹은 개발 프로젝트 경험자들로서 공통으로 가졌던 의문들 및 이슈 상황들을 정리한 책입니다. 본 책을 통해 독자 분들은 IT 프로젝트를 하시면서 겪게될 시행착오와 의문점들이 적잖게 해소될 것입니다. 그러니 같이 한번 본 책을 통해 배워나가 봅시다.
 
-## 목차
+## 📌 저자 소개
+
+<a href="https://github.com/I-always-have-a-plan/ialwayshaveaplan/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=I-always-have-a-plan/ialwayshaveaplan" />
+</a>
+
+## ✨ 목차
 ### [00 머리말](https://github.com/I-always-have-a-plan/ialwayshaveaplan/blob/write/00%20%EB%A8%B8%EB%A6%AC%EB%A7%90/00%20%EB%A8%B8%EB%A6%AC%EB%A7%90.md)
 ### [01 서론](https://github.com/I-always-have-a-plan/ialwayshaveaplan/blob/write/01%20%EC%84%9C%EB%A1%A0/01%20%EC%84%9C%EB%A1%A0.md)
 - [01.1 프로젝트를 하는 이유](https://github.com/I-always-have-a-plan/ialwayshaveaplan/blob/write/01%20%EC%84%9C%EB%A1%A0/01.1%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A5%BC%20%ED%95%98%EB%8A%94%20%EC%9D%B4%EC%9C%A0.md)
@@ -40,7 +46,7 @@
 - [06.5 고도화 전략](https://github.com/I-always-have-a-plan/ialwayshaveaplan/blob/write/06%20%EC%A2%85%EB%A3%8C/06.5%20%EA%B3%A0%EB%8F%84%ED%99%94%20%EC%A0%84%EB%9E%B5.md)
 
 ---
-## 작업 과정
+## 👉 작업 과정
 
 1. `write`브랜치로 이동
 2. 내용 수정 후 커밋하기
@@ -49,6 +55,7 @@
 5. 2~4번 반복
 6. 일요일 회의 때 `main`브랜치에 백업하기
 
+## 👉 컨벤션
 ### 브랜치 규칙
 
 - 브랜치명: `main` - `write`
@@ -58,22 +65,22 @@
 
 `키워드(영어대문자) - 작업 내용 요약(한글)`
 
+```md
 ADD - 새로운 내용
-
 UPDATE - 수정한 내용
-
 FIX - 오탈자 수정
-
 DELETE - 삭제한 내용
-
+```
 ### 디렉토리 규칙
 
-`{{순서}} {{제목}}` / [세부제목.md](http://xn--w52bz5cu7dw7i.md/)
+`{{챕터 번호}} {{제목}}` / 세부제목.md
 
-`images` / `{{챕터}}_{{이미지 이름}}`.png
+`images` / `{{챕터 번호}}_{{이미지 이름}}`.png
 
-## 📌 팀원 소개
+### 페이지 템플릿
 
-<a href="https://github.com/I-always-have-a-plan/ialwayshaveaplan/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=I-always-have-a-plan/ialwayshaveaplan" />
-</a>
+📁 `template/챕터.md` 챕터 소개와 알아두기를 통한 내용 요약을 위한 템플릿
+
+📁 `template/내용.md` 집필 내용을 쓰는 템플릿
+
+📁 `template/포인트.md` 산출물에 대해 정리할 수 있는 템플릿
